@@ -1,3 +1,14 @@
+---
+title: Multi Tool AI Assistant
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.30.0
+app_file: streamlit_app.py
+pinned: false
+---
+
 # 🤖 Multi Tool AI Assistant
 
 An intelligent AI Assistant built using **LangChain** and **Groq API** that can perform multiple tasks using integrated tools such as calculations, web search, Wikipedia lookup, and conversation memory.
