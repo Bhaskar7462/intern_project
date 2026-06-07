@@ -2,13 +2,13 @@
 # Install all with: pip install -r requirements.txt
  
 # ── Core LangChain ────────────────────────────────────────────
-langchain==0.2.16
-langchain-core==0.2.38
-langchain-community==0.2.16
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
  
 # ── Groq LLM integration ──────────────────────────────────────
-langchain-groq==0.1.9
-groq==0.9.0
+langchain-groq>=0.2.0
+groq>=0.18.0
  
 # ── Tools ─────────────────────────────────────────────────────
 wikipedia==1.4.0              # Wikipedia search tool
@@ -19,3 +19,6 @@ python-dotenv==1.0.1
  
 # ── Utilities ─────────────────────────────────────────────────
 requests==2.32.3
+
+# ── Streamlit Web Interface ──────────────────────────────────
+streamlit>=1.30.0
