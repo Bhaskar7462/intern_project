@@ -154,12 +154,15 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # --- Initialize Agent ---
 # Import inside function to make sure GROQ_API_KEY is set before imports run if necessary
+import traceback
+
 def get_agent():
     try:
         from agent.assistant_agent import AssistantAgent
         return AssistantAgent()
     except Exception as e:
         st.error(f"Failed to initialize Assistant Agent: {e}")
+        st.code(traceback.format_exc())
         return None
 
 if "agent" not in st.session_state:

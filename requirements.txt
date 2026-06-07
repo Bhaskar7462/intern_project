@@ -16,9 +16,13 @@ duckduckgo-search==6.2.13     # Web search tool (free, no API key)
  
 # ── Environment variables ─────────────────────────────────────
 python-dotenv==1.0.1
- 
+  
 # ── Utilities ─────────────────────────────────────────────────
 requests==2.32.3
+
+# ── Pydantic Compatibility ────────────────────────────────────
+pydantic<2.10
+pydantic-settings<2.5
 
 # ── Streamlit Web Interface ──────────────────────────────────
 streamlit>=1.30.0
